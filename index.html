@@ -1,16 +1,28 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" href="to-do-list.css">	
+		<link rel="script" href="main.js">	
+	</head>
+s
 
-<head>
-    <title>Day 1 | GeekWise JavaScript 1</title>
-    <link rel="stylesheet" href="css/cssbootstrap/bootstrap.min.css"/>
-</head>
+	<body>
+		<div id='wrapper'>
+			<h1 id='header'>TO DO LIST</h1>
+			<input id='inputField' type='text'></input><button id='addButton'>Add to list</button>
+				<br>
+    		<p>
+    			To edit, mark done, or remove an item, tick the checkbox and press one of the following buttons:
+    		</p>
+			<div id='buttonBar'>
+    			<button id='editItemButton'>Edit</button>
+				<button id='markDoneButton'>Mark done</button>
+    			<button id='removeItemButton'>Remove item</button>
+			</div>
 
-    <body>
-        <button onclick="alertMsg()">click me!</button>
-        <script src="scripts/jquery-2.1.3.min.js"></script>
-        <script src="scripts/bootstrap.min.js"></script>
-        <script src="scripts/main.js"></script>
-    </body>
-
+			<ul id="toDoList">
+			</ul>
+				<br>
+		</div>
+	</body>
 </html>
