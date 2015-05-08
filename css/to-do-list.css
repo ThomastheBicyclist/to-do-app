@@ -1,0 +1,67 @@
+ul
+{
+    list-style-type: none;
+    font-family: Helvetica Light, Helvetica;
+}
+
+#addButton, #editItemButton, #markDoneButton, #removeItemButton
+{
+    padding: 15px; 
+    border-radius: 5px;
+    color: white; 
+    background: black;
+    padding: 1em;
+    font-size: .9em;
+    margin: .3em;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#buttonBar
+{
+    margin: 10px auto;
+    display: -webkit-box;   
+    display: -moz-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+p
+{
+    font-style: italic;
+    font-size: 16px;
+    width: 350px;
+}
+
+li span
+{
+    padding-left: 15px;
+}
+
+#inputField
+{
+    width: 200px;
+    padding-right: 25px;
+}
+
+#header
+{
+    font-family: Hellforge, League Gothic, Helvetica Condensed Bold, Helvetica Black, Helvetica Condensed Black;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+#wrapper
+{
+    width: 350px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
