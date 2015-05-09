@@ -1,15 +1,78 @@
-ul
+#header
 {
-    list-style-type: none;
-    font-family: Helvetica Light, Helvetica;
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-kerning: normal;
 }
 
-#addButton, #editItemButton, #markDoneButton, #removeItemButton
+#toDoList
 {
+    list-style: none;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#inputField
+{
+  display: inline;
+  margin: 0;
+  width: 200px;
+  Height:
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+#addButton
+{
+    background: black;
     padding: 15px; 
     border-radius: 5px;
     color: white; 
-    background: black;
+    padding: 1em;
+    font-size: .9em;
+    margin: .3em;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#editItemButton
+{
+    background: #33CCCC;
+    padding: 15px; 
+    border-radius: 5px;
+    color: white; 
+    padding: 1em;
+    font-size: .9em;
+    margin: .3em;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#markDoneButton
+{
+    background: #009999;
+    padding: 15px; 
+    border-radius: 5px;
+    color: white; 
+    padding: 1em;
+    font-size: .9em;
+    margin: .3em;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#removeItemButton
+{
+    background: #006666;
+    padding: 15px; 
+    border-radius: 5px;
+    color: white; 
     padding: 1em;
     font-size: .9em;
     margin: .3em;
@@ -43,25 +106,21 @@ p
 
 li span
 {
-    padding-left: 15px;
+   display: inline;
+   margin-left: 10px;
 }
 
 #inputField
 {
     width: 200px;
-    padding-right: 25px;
-}
-
-#header
-{
-    font-family: Hellforge, League Gothic, Helvetica Condensed Bold, Helvetica Black, Helvetica Condensed Black;
-    font-size: 45px;
-    letter-spacing: 2px;
+    margin-right: 25px;
 }
 
 #wrapper
 {
     width: 350px ;
+    padding: 20px;
+    outline: #33CCCC dotted thin;
     margin-left: auto ;
     margin-right: auto ;
 }
