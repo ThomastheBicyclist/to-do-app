@@ -27,7 +27,7 @@ function createListItem (addThis) {
     var item = document.createElement('li');
     item.id = 'item_' + listTotal;
     
-var checkbox = document.createElement('input');
+    var checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.id = 'chkbx_' + listTotal;
     checkbox.onclick = changeItem;
